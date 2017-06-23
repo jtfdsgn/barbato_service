@@ -1,0 +1,95 @@
+/* Universal Styles */
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #2A388F;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  font-family: 'Bevan', cursive;
+  text-align: center;
+  color: #2A388F;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: .05rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  letter-spacing: .05rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  border-bottom: 16px solid #2A388F;
+  border-style: double;
+}
+
+header div {
+  padding: 1rem 0;
+}
+
+header img {
+  height: 6rem;
+  margin: auto;
+}
+
+/* Hero Section */
+
+#hero {
+  padding: 4rem;
+}
+
+/* Services Section */
+
+#services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.service {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service img {
+  height: 12rem;
+}
+
+.service h3 {
+  padding: 2rem;
+}
+
+/* Contact Section */
+
+#contact {
+  padding: 4rem;
+}
+
+#contact h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  padding: 1rem 0;
+  color: #FFF;
+  letter-spacing: .15rem;
+}
+
+div.blue_background {
+  width: 100%;
+  background-color: #2A388F;
+  margin-top: 4rem;
+}
