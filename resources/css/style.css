@@ -1,11 +1,13 @@
 /* Universal Styles */
 
-p {
+p, h2, h4 {
   font-family: 'Open Sans', sans-serif;
   color: #2A388F;
+  text-align: center;
+  line-height: 1.2;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1, h3, h5, h6, span {
   font-family: 'Bevan', cursive;
   text-align: center;
   color: #2A388F;
@@ -17,7 +19,7 @@ h1 {
   letter-spacing: .05rem;
 }
 
-h3 {
+h2, h3 {
   font-size: 1.75rem;
   letter-spacing: .05rem;
 }
@@ -80,8 +82,7 @@ div.service {
   padding: 4rem;
 }
 
-#contact h3 {
-  font-family: 'Open Sans', sans-serif;
+#contact h2 {
   font-weight: bolder;
   padding: 1rem 0;
   color: #FFF;
