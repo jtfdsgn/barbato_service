@@ -1,13 +1,13 @@
 /* Universal Styles */
 
-p, h2, h4 {
+p, h2, h4, span {
   font-family: 'Open Sans', sans-serif;
   color: #2A388F;
   text-align: center;
   line-height: 1.2;
 }
 
-h1, h3, h5, h6, span {
+h1, h3, h5, h6 {
   font-family: 'Bevan', cursive;
   text-align: center;
   color: #2A388F;
@@ -24,32 +24,49 @@ h2, h3 {
   letter-spacing: .05rem;
 }
 
+span {
+  font-size: 1.25rem;
+  padding-right: 1rem;
+  padding-left: .25rem;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #2A388F;
+}
+
+a:hover {
+  color: #ed1c24;
+}
+
 /* Header Section */
 
 header {
-  width: 100%;
-  border-bottom: 16px solid #2A388F;
-  border-style: double;
-}
-
-header div {
-  padding: 1rem 0;
+  padding: 1rem 4rem;
+  border-bottom: 5px solid #2A388F;
 }
 
 header img {
   height: 6rem;
-  margin: auto;
 }
+
+/* Navigation */
+
+nav {
+  border-bottom: 8px solid #2A388F;
+  padding: 1rem 4.25rem;
+}
+
 
 /* Hero Section */
 
 #hero {
-  padding: 4rem;
+  padding: 4rem 2rem;
 }
 
 /* Services Section */
@@ -58,10 +75,11 @@ header img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 1rem 2rem;
 }
 
 div.service {
-  width: 32%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +97,7 @@ div.service {
 /* Contact Section */
 
 #contact {
-  padding: 4rem;
+  padding: 4rem 2rem;
 }
 
 #contact h2 {
