@@ -19,8 +19,13 @@ h1 {
   letter-spacing: .05rem;
 }
 
-h2, h3 {
+h2 {
   font-size: 1.75rem;
+  letter-spacing: .05rem;
+}
+
+h3 {
+  font-size: 2.25rem;
   letter-spacing: .05rem;
 }
 
@@ -35,20 +40,21 @@ span {
   margin: auto;
 }
 
-a {
-  text-decoration: none;
-  color: #2A388F;
-}
+/* Top Background */
 
-a:hover {
-  color: #ed1c24;
+.background_top {
+  height: 50rem;
+  background-image: url("../images/background_top.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Header Section */
 
 header {
   padding: 1rem 4rem;
-  border-bottom: 5px solid #2A388F;
 }
 
 header img {
@@ -58,18 +64,33 @@ header img {
 /* Navigation */
 
 nav {
-  border-bottom: 8px solid #2A388F;
-  padding: 1rem 4.25rem;
+  padding: .5rem 4.15rem;
 }
 
+nav a {
+  text-decoration: none;
+  color: #FFF;
+}
 
-/* Hero Section */
+nav a:hover {
+  color: #ed1c24;
+}
 
-#hero {
-  padding: 4rem 2rem;
+/* About Section */
+
+#about {
+  padding: 11rem 2rem;
+}
+
+#about h1 {
+  color: #FFF;
 }
 
 /* Services Section */
+
+#service {
+  padding: 4rem 1rem 2rem 1rem;
+}
 
 #services {
   display: flex;
@@ -94,7 +115,35 @@ div.service {
   padding: 2rem;
 }
 
+/* Specials Section */
+
+#special img {
+  width: 33%;
+  margin: auto;
+  display: block;
+  position: relative;
+  left: 1rem;
+  padding-top: 5rem;
+}
+
+#special h1 {
+  padding: .5rem 1rem;
+}
+
+div.titles {
+  padding: 2rem 1rem;
+}
+
 /* Contact Section */
+
+#contacts {
+  background-image: url("../images/background_map.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 375px;
+  margin-top: 5rem;
+}
 
 #contact {
   padding: 4rem 2rem;
@@ -110,5 +159,27 @@ div.service {
 div.blue_background {
   width: 100%;
   background-color: #2A388F;
-  margin-top: 4rem;
 }
+
+/* Footer Section */
+
+footer {
+  height: 1.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #6EC5B4;
+}
+
+footer span, footer a {
+  color: #4D4D4D;
+  font-size: .75rem;
+}
+
+/* Media Queries */
