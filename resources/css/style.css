@@ -212,6 +212,7 @@ footer span, footer a {
 
   .background_top {
     height: 48rem;
+    background-attachment: inherit;
   }
 
   /* Header Section */
@@ -297,8 +298,6 @@ footer span, footer a {
   .background_top {
     height: 44rem;
     background-attachment: inherit;
-    background-position: center;
-    background-size: cover;
   }
 
   /* Header Section */
