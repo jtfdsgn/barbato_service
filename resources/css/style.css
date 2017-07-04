@@ -1,32 +1,34 @@
 /* Universal Styles */
 
+p, h2, h4, span, h1, h3, h5, h6 {
+  text-align: center;
+  line-height: 1.2;
+}
+
 p, h2, h4, span {
   font-family: 'Open Sans', sans-serif;
   color: #2A388F;
-  text-align: center;
-  line-height: 1.2;
 }
 
 h1, h3, h5, h6 {
   font-family: 'Bevan', cursive;
-  text-align: center;
   color: #2A388F;
-  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  letter-spacing: .05rem;
 }
 
 h1 {
   font-size: 3.5rem;
-  letter-spacing: .05rem;
 }
 
 h2 {
   font-size: 1.75rem;
-  letter-spacing: .05rem;
 }
 
 h3 {
   font-size: 2.25rem;
-  letter-spacing: .05rem;
 }
 
 span {
@@ -141,7 +143,7 @@ div.titles {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 375px;
+  height: 23.5rem;
   margin-top: 5rem;
 }
 
@@ -183,3 +185,185 @@ footer span, footer a {
 }
 
 /* Media Queries */
+
+@media only screen and (min-width: 551px) and (max-width: 1024px) {
+
+  /* Universal */
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  span {
+    font-size: 1.25rem;
+    padding-right: 1rem;
+    padding-left: .25rem;
+  }
+
+  /* Top Background */
+
+  .background_top {
+    height: 48rem;
+  }
+
+  /* Header Section */
+
+  header {
+    padding: 1rem 3rem;
+  }
+
+  header img {
+    height: 5rem;
+  }
+
+  /* Navigation */
+
+  nav {
+    padding: .5rem 3.15rem;
+  }
+
+  /* Services Section */
+
+  #service {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+
+  #services {
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+
+  div.service {
+    width: 45%;
+  }
+
+  .service img {
+    height: 12rem;
+  }
+
+  .service h3 {
+    padding: 2rem;
+  }
+
+  /* Contact Section */
+
+  #contacts {
+    height: 19rem;
+    margin-top: 4rem;
+  }
+
+  #contact {
+    padding: 3.5rem 2rem;
+  }
+
+  /* Footer Section */
+
+  footer {
+    padding: 1rem 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 250px) and (max-width: 550px) {
+
+  /* Universal */
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  span {
+    font-size: 1rem;
+    padding-right: .75rem;
+  }
+
+  /* Top Background */
+
+  .background_top {
+    height: 44rem;
+  }
+
+  /* Header Section */
+
+  header {
+    padding: 1rem;
+  }
+
+  header img {
+    height: 3rem;
+  }
+
+  /* Navigation */
+
+  nav {
+    padding: 0 1rem;
+  }
+
+  /* Services Section */
+
+  #service {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+
+  #services {
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+
+  div.service {
+    width: 100%;
+  }
+
+  .service img {
+    height: 12rem;
+    padding-top: 2rem;
+  }
+
+  .service h3 {
+    padding: 2rem;
+  }
+
+  /* Specials Section */
+
+  #special img {
+    width: 80%;
+  }
+
+  /* Contact Section */
+
+  #contacts {
+    height: 14rem;
+    margin-top: 4rem;
+  }
+
+  #contact {
+    padding: 2rem;
+  }
+
+  /* Footer Section */
+
+  footer {
+    padding: 1rem;
+  }
+
+  footer span, footer a {
+    font-size: .5rem;
+  }
+
+}
